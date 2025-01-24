@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#D19BDB">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/bagel_fat_one"
+        android:text="Room Management"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="130sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+    <Spinner
+        android:id="@+id/spinnerTypeChambre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:popupBackground="#FFFFFF"
+        android:spinnerMode="dropdown"
+        android:textColor="#000000"
+        android:textColorHint="#131313" />
+
+    <!-- Price Field -->
+    <EditText
+        android:id="@+id/editPrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@android:drawable/ic_menu_edit"
+        android:drawablePadding="8dp"
+        android:drawableTint="#9C27B0"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#131313" />
+    <Spinner
+        android:id="@+id/spinnerDispoChambre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:popupBackground="#FFFFFF"
+        android:spinnerMode="dropdown"
+        android:textColor="#000000"
+        android:textColorHint="#131313" />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#161516"
+        android:drawableStart="@android:drawable/ic_menu_save"
+        android:drawablePadding="8dp"
+        android:drawableTint="#FFFFFF"
+        android:elevation="4dp"
+        android:outlineProvider="background"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:cornerRadius="30sp" />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#131313"
+        android:drawableStart="@android:drawable/ic_menu_delete"
+        android:drawablePadding="8dp"
+        android:drawableTint="#FFFFFF"
+        android:elevation="4dp"
+        android:outlineProvider="background"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:cornerRadius="30sp" />
+
+</LinearLayout>

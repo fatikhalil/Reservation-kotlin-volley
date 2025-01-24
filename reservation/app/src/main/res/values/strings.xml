@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GestionDesReservations</string>
+    <string name="login">Se connecter</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="edit_profile">Modifier le profil</string>
+    <string name="delete_profile">Supprimer le profil</string>
+    <string name="update">Mettre à jour</string>
+</resources>

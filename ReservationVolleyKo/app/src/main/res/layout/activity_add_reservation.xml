@@ -1,0 +1,146 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#D19BDB">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bagel_fat_one"
+            android:text="Book a Room"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="130sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+        <EditText
+            android:id="@+id/editClientId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:drawablePadding="8dp"
+            android:drawableTint="#9C27B0"
+            android:hint="Client ID"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#131313" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Available Room"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/spinnerChambre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:popupBackground="#FFFFFF"
+            android:spinnerMode="dropdown"
+            android:textColor="#000000"
+            android:textColorHint="#131313" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Start Date"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editDateDebut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:drawableLeft="@android:drawable/ic_menu_today"
+            android:drawablePadding="8dp"
+            android:drawableTint="#9C27B0"
+            android:hint="YYYY-MM-DD"
+            android:imeOptions="actionDone"
+            android:inputType="date"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#131313" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="End Date"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editDateFin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:drawableLeft="@android:drawable/ic_menu_today"
+            android:drawablePadding="8dp"
+            android:drawableTint="#9C27B0"
+            android:hint="YYYY-MM-DD"
+            android:imeOptions="actionDone"
+            android:inputType="date"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#131313" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Preferences"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:background="@drawable/edittext_background"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:drawablePadding="8dp"
+            android:drawableTint="#9C27B0"
+            android:hint="Enter your preferences"
+            android:imeOptions="actionDone"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#131313" />
+        <Button
+            android:id="@+id/btnSaveReservation"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#161516"
+            android:drawableStart="@android:drawable/ic_menu_save"
+            android:drawablePadding="8dp"
+            android:drawableTint="#FFFFFF"
+            android:elevation="4dp"
+            android:outlineProvider="background"
+            android:text="Save Reservation"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:cornerRadius="30sp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D19BDB"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/bagel_fat_one"
+        android:text="Room Reservation"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="180sp"
+        android:layout_height="180sp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="4dp"
+        android:padding="16dp"
+        android:text="Welcome to the Room Reservation app! Use the buttons above to manage rooms or reservations. You can add, edit, or delete rooms, and view or update reservations. Start by selecting an option below."
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="18sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRoomManagement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#161516"
+        android:drawableStart="@android:drawable/ic_menu_manage"
+        android:drawablePadding="8dp"
+        android:drawableTint="#FFFFFF"
+        android:elevation="4dp"
+        android:text="Room Management"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:cornerRadius="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnReservationManagement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#161516"
+        android:drawableStart="@android:drawable/ic_menu_agenda"
+        android:drawablePadding="8dp"
+        android:drawableTint="#FFFFFF"
+        android:elevation="4dp"
+        android:text="Reservation Management"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:cornerRadius="8dp" />
+
+</LinearLayout>

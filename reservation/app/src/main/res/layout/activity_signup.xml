@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D19BDB"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bagel_fat_one"
+        android:text="Room Reservation"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="8dp"
+        android:drawableTint="#9C27B0"
+        android:elevation="2dp"
+        android:hint="First Name"
+        android:inputType="text"
+        android:outlineProvider="background"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#131313" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="8dp"
+        android:drawableTint="#9C27B0"
+        android:elevation="2dp"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:outlineProvider="background"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#131313" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawablePadding="8dp"
+        android:drawableTint="#9C27B0"
+        android:elevation="2dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:outlineProvider="background"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#131313" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        android:drawablePadding="8dp"
+        android:drawableTint="#9C27B0"
+        android:elevation="2dp"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:outlineProvider="background"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#131313" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:drawablePadding="8dp"
+        android:drawableTint="#9C27B0"
+        android:elevation="2dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:outlineProvider="background"
+        android:padding="12dp"
+        android:textColor="#000000" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSignup"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#161516"
+        android:elevation="4dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:cornerRadius="8dp" />
+
+</LinearLayout>
