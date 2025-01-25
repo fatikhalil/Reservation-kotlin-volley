@@ -66,7 +66,7 @@ Ce projet est une API de gestion de réservations d'hôtels conçue pour permett
 ### Backend
 1. **Cloner le dépôt** :
 ```bash
-git clone https://github.com/fatikhalil/Reservation-volley-java.git
+git clone https://github.com/fatikhalil/Reservation-kotlin-volley.git
 cd votre-projet/backend
 ```
 2. **Configurer la base de données** :
